@@ -64,7 +64,7 @@
 						"float":"left",
 						"cursor":"pointer"
 					});
-					_this.callback();
+					_this.callback(_this.pageNum,data);
 				},
 				error:function(err){
 					alert(err.message);
